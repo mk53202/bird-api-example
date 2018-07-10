@@ -5,7 +5,7 @@ url = "https://api.bird.co/bird/nearby"
 city_lat = "43.0500"
 city_lon = "-87.8982"
 city_radius = "1000"
-auth_key = "XNlcl9pZCI6IjlmY2NjMGMxLTBkNzktNDA3Ni1hMTkyLp349Oc6Ik" # Not a real auth_key. I'll add the call to get one
+auth_key = "XNlcl9pZCI6IjlmY2NjMGMxLTBkNzktNDA3Ni1hMTkyLp349Oc6Ik" # Not a real auth_key. use get-bird-auth.py to get one
 device_GUID = "12345678-12ab-34cd-56ef-fhdhfdjh8w8d" # Random generated unique 16bit GUID
 
 querystring = { "latitude" : city_lat, "longitude" : city_lon, "radius" : city_radius }
