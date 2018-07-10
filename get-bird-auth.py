@@ -3,7 +3,7 @@ import requests
 url = "https://api.bird.co/user/login"
 
 body_payload = "{\"email\": \"yourmom@aol.com\"}" # Use unique email!
-device_GUID = "12345678-12ab-34cd-56ef-fhdhfdjh8w8d"
+device_GUID = "12345678-12ab-34cd-56ef-fhdhfdjh8w8d" # Random generated unique 16bit GUID
 
 headers = {
     'Platform': "ios",
